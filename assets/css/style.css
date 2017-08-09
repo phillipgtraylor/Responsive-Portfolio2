@@ -1,0 +1,249 @@
+
+body {
+     
+
+}
+
+header {
+	width: 960px;
+	height: 80px;
+	border-bottom: 5px;
+	border-color: #cccccc;
+	border-style: solid;
+
+}
+h1 {
+	font-family: 'Georgia', Times, serif;
+	float:left;
+	font-size: 30px;
+	background-color: #4aaaa5;
+	margin-left: 50px;
+	padding: 15px;
+	color: white;
+	margin-top: 20px;
+}
+h2 {
+	font-family: 'Georgia', Times, serif;
+	font-size: 25px;
+	color: #4aaaaf;
+}
+h3 {
+	font-family: 'Georgia', Times, serif;
+	font-size: 20px;
+	color: #4aaaaf;
+	text-align: center;
+
+}
+.pagelinks {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	margin-right: 70px;
+	margin-top: 35px;
+	color: #eee;
+	background-color:;
+
+}
+.container {
+	max-width: 960px;
+	padding-top: 50px;
+	border-style: solid;
+	border-bottom: 10px;
+	border-color: #ffffff;
+	height: 1500px;
+   	
+	background-image: url("/Users/Phillip/desktop/Basic-Repository/assets/images/whirlpool.png");
+	
+
+}
+.mainbio{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	background-color: #ffffff;
+
+
+}
+.contact {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 15px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.mainbio,
+#ptphoto,
+.contact,
+.p1 {
+	float: left;
+	
+}
+.mainbio {
+	width: 60%;
+}
+.contact {
+	width: 25%;
+}
+#ptphoto {
+	height: 200px;
+	width: 275px;
+	margin-right: 20px;
+}
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #eee;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 980px;
+	height: 50px;
+	padding-top: 25px;
+	background-color: #666666;
+	border-top: 5px;
+	border-style: solid;
+	border-color: #4aaaaf;
+	left: 0;
+}
+
+.contact_info_input,
+.contact {
+	float: left;
+}
+
+.contact_info_input {
+	width: 60%;
+	background-color: #ffffff
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	background-color: #ffffff;
+
+
+}
+.contact {
+	width: 25%;
+}
+.form {
+	background-color: #ffffff
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin-left: ;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;}
+
+#messageinput {
+	height: 200px;
+	font-size: 14px;
+}
+
+.projectlist,
+.contact{
+	float: left;
+}
+.contact {
+	width: 25%
+
+}
+.projectlist{
+	width: 60%;
+	background-color:#ffffff;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	height: 900px;
+	margin-left: 50px;
+}
+.d1_2 {
+	overflow: auto;
+}
+.div1,
+.div2 {
+	float: left;
+}
+.div2{
+	position: relative;
+	width: 40%;
+	padding: 15px;
+	border-color: black;
+	border: 3px;
+	border-style:;
+	padding-left: 40px;
+}
+
+.div1 { 
+	position: relative;
+	width: 40%;
+	padding: 15px;
+	border-color: black;
+	border: 3px;
+	border-style: ; 
+	padding-left: 40px;
+}
+.d3_4 {
+	overflow: auto;
+}
+.div3,
+.div4 {
+	float: left;
+}
+.div3 {
+	position: relative;
+	width: 40%;
+	padding: 15px;
+	border-color: black;
+	border: 3px;
+	border-style: ;
+	padding-left: 40px;
+}
+.div4 {
+	position: relative;
+	width: 40%;
+	padding: 15px;
+	border-color: black;
+	border: 3px;
+	border-style: ;
+	padding-left: 40px
+}
+.d5 {
+	overflow: auto;
+}
+.div5 {
+	position: relative;
+	width: 40%;
+	padding: 15px;
+	border-color: black;
+	border: 3px;
+	border-style: ;
+	padding-left: 40px;
+}
+.h2p {
+	padding-left: 40px;
+}
+
+@media screen and (max-width: 980px){
+	header {
+	}
+}
+
+@media screen and (max-width: 768px){
+	header {
+	}
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		position: static;}
+	footer {position: static;}
+}
